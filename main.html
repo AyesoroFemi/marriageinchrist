@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+        .carousel-item {
+            height: 32rem;
+            background:black;
+            color: white;
+            /* position: relative; */
+            background-position: center;
+            background-size:cover;
+        }
+        .container {
+            /* position: absolute;
+            bottom: 5rem;
+            left: 0;
+            right: 0; */
+            height: 32rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        /* .overlay-image{
+            height: 32rem;
+            background-position: center;
+            background-size:cover;
+            opacity: 0.5;
+        } */
+    </style>
+  </head>
+  <body>
+
+
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active"  data-bs-interval="10000" style="background-image:linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.8)), url(./assets/marriage.jpg);">
+            <div class="overlay-image"></div>
+            <div class="container">
+                <h1>Example Headline</h1>
+                <p style="text-align: center;">
+                    Lorem ipsum, dolor sit amet
+                     consectetur adipisicing elit. Consequuntur, distinctio.
+                     Lorem ipsum dolor sit amet.
+                </p>
+                <a href="#" class="btn btn-lg btn-primary">Sign up today</a>
+            </div>
+        </div>
+        <div class="carousel-item"  data-bs-interval="5000" style="background-image:linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.8)), url(./assets/marriage.jpg);">
+            <div class="container">
+                <h1>Example Headline</h1>
+                <p style="text-align: center;">
+                    Lorem ipsum, dolor sit amet
+                     consectetur adipisicing elit. Consequuntur, distinctio.
+                     Lorem ipsum dolor sit amet.
+                </p>
+                <a href="#" class="btn btn-lg btn-primary">Sign up today</a>
+            </div>
+        </div>
+        <div class="carousel-item"  data-bs-interval="5000" style="background-image:linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.8)), url(./assets/marriage.jpg);">
+            <div class="container">
+                <h1>Example Headline</h1>
+                <p style="text-align: center;">
+                    Lorem ipsum, dolor sit amet
+                     consectetur adipisicing elit. Consequuntur, distinctio.
+                     Lorem ipsum dolor sit amet.
+                </p>
+                <a href="#" class="btn btn-lg btn-primary">Sign up today</a>
+            </div>
+        </div>
+    </div>
+    <a href="#myCarousel" class="carousel-control-prev"
+        role="button" data-bs-slide="prev"
+        ><span class="visually-hidden">Previous</span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a href="#myCarousel" class="carousel-control-next"
+    role="button" data-bs-slide="next"
+    ><span class="visually-hidden">Next</span>
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+</a>
+        
+</div>    
+
+    
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+   
+  </body>
+</html>
