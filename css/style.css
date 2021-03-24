@@ -60,6 +60,74 @@ body{
     background-attachment: fixed;
 }
 
+/* contact  */
+#contact{
+    /* margin-bottom: 50px; */
+    padding-bottom: 50px;
+    background-color: white;
+}
+.contact-wrapper{
+    padding: 0 10px;
+}
+#contact h1{
+   text-align: center;
+   padding-top: 50px;
+   padding-bottom: 20px;
+   color: black;
+   font-family: var(--mainFont);
+   margin-bottom: 30px;
+   font-size: clamp(32px, 5vw, 36px);
+}
+#contact .contact-me {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color:rgb(34, 34, 34);
+    /* box-shadow: 3px 5px 10px rgba(114, 110, 110, 0.3); */
+}
+.contact-me label{
+    color: #e6e6e6;
+}
+input[type="text"], input[type="email"] {
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: white;
+    border-radius: 7px;
+    border:none;
+    text-indent: 14px;
+}
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+textarea:focus{
+    outline:none;
+    border: 1px solid firebrick;
+}
+input[type='submit']:focus{
+      outline:none;
+}
+textarea{
+    margin: 10px 0;
+    width: 100%;
+    height: 200px;
+    border-radius: 7px;
+    border: none;
+    text-indent: 14px;
+}
+input[type="submit"] {
+   margin: 10px 0;
+   width: 100%;
+   padding: 10px 0;
+   background-color: blue;
+   border: none;
+   cursor:pointer;
+   color: white;
+   border-radius: 7px;
+   border:none;
+   text-indent: 14px;
+   font-weight:700;
+}
+
 @media screen and (max-width: 768px) {
     .programs-column{
         display: grid;
