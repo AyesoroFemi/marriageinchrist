@@ -1,4 +1,12 @@
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    overflow: none;
+}
 /* Carousel Slider */
 #myCarousel .carousel-item {
     height: 32rem;
@@ -27,11 +35,13 @@
     padding: 30px 20px;
     text-align:center;
     margin-top: 30px;
-    border-radius: 7px;
-    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    
+    box-shadow: 1px 3px 5px rgba(136, 133, 133, 0.5);
 }
+
 .programs-column div h3{
-  font-size: clamp(36px, 5vw, 52px);
+  font-size: clamp(32px, 5vw, 42px);
 
 }
 #hero-about{
@@ -40,6 +50,14 @@
     background-size:cover;
     background-repeat: no-repeat;
     min-height: 300px;
+}
+#hero-message{
+    background-image:linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.8)), url(../assets/marriage.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    background-attachment: fixed;
 }
 
 @media screen and (max-width: 768px) {
