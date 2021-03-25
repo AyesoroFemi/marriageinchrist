@@ -45,14 +45,14 @@ body{
 
 }
 #hero-about{
-    background-image:linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.8)), url(../assets/marriage.jpg);
+    background-image:linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.8)), url(../assets/slider2.jpeg);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
     min-height: 300px;
 }
 #hero-message{
-    background-image:linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.8)), url(../assets/marriage.jpg);
+    background-image:linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.8)), url(../assets/slider2.jpeg);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -118,7 +118,7 @@ input[type="submit"] {
    margin: 10px 0;
    width: 100%;
    padding: 10px 0;
-   background-color: blue;
+   background-color: #63811C;
    border: none;
    cursor:pointer;
    color: white;
