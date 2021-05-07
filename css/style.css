@@ -23,11 +23,12 @@ body{
     justify-content: center;
     align-items: center;
     text-align:center;
-    font-family: 'Lora', serif;
+   
 }
 #myCarousel .container h1{
     font-size: clamp(24px, 5vw, 32px);
     font-weight: 900;
+    font-family: 'Lora', serif;
 }
 
 
