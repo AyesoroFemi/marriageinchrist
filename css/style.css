@@ -7,6 +7,7 @@
 body{
     overflow: none;
 }
+
 /* Carousel Slider */
 #myCarousel .carousel-item {
     height: 32rem;
@@ -22,6 +23,10 @@ body{
     justify-content: center;
     align-items: center;
     text-align:center;
+    font-family: 'Lora', serif;
+}
+#myCarousel .container h1{
+    font-size: clamp(24px, 5vw, 32px);
 }
 
 
@@ -61,6 +66,9 @@ body{
 }
 
 /* contact  */
+.fab {
+    color: #63811C;
+}
 #contact{
     /* margin-bottom: 50px; */
     padding-bottom: 50px;
