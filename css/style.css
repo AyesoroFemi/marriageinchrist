@@ -27,6 +27,7 @@ body{
 }
 #myCarousel .container h1{
     font-size: clamp(24px, 5vw, 32px);
+    font-weight: 900;
 }
 
 
