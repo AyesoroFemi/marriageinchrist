@@ -58,7 +58,7 @@ body{
     min-height: 300px;
 }
 #hero-message{
-    background-image:linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.8)), url(../assets/mst106.jpeg);
+    background-image:linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.8)), url(../assets/min1.jpg);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
