@@ -58,7 +58,7 @@ body{
     min-height: 300px;
 }
 #hero-message{
-    background-image:linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.8)), url(../assets/slider2.jpeg);
+    background-image:linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.8)), url(../assets/mst106.jpeg);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -135,6 +135,10 @@ input[type="submit"] {
    border:none;
    text-indent: 14px;
    font-weight:700;
+}
+.book-image{
+    height: 400px;
+    width: 50%;
 }
 
 @media screen and (max-width: 768px) {
