@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
 *{
     margin:0;
     padding:0;
@@ -27,7 +27,8 @@ body{
 #myCarousel .container h1{
     font-size: clamp(24px, 5vw, 32px);
     font-weight: 900;
-    font-family: 'Lora', serif;
+    /* font-family: 'Lora', serif; */
+    font-family:'Montserrat', sans-serif;
 }
 
 
