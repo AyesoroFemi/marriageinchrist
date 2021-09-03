@@ -20,8 +20,8 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto fw-bold">
+          <div class="collapse navbar-collapse" id="navbarNav"  style="font-size:16px;" >
+            <ul class="navbar-nav ms-auto fw-bold" >
               <li class="nav-item mx-2">
                 <a class="nav-link" aria-current="page" href="/index.html">Home</a>
               </li>
@@ -50,25 +50,25 @@
            <div class="contact-wrapper">
             <h1>Send us a message today</h1>
             <div class="contact-me">
-               <form action="https://formsubmit.co/ayesorofemi@gmail.com" method="POST">
-                  <input type="hidden" name="_next" value="https://https://marriageinchristministry.com/thanks.html">
+               <form action="POST" data-netlify="true">
+                  <!-- <input type="hidden" name="_next" value="https://https://marriageinchristministry.com/thanks.html"> -->
                   <!-- <input type="hidden" name="_captcha" value="false"> -->
                 <div>
                     <label>Name</label> 
-                    <input type="text">
+                    <input type="text" name="name" id="name">
                 </div>
                 <div>
                     <label>Email</label>
-                    <input type="email">
+                    <input type="email" name="email" id="email">
                </div>
                 <div>
                     <label>Phone No</label>
-                    <input type="text">
+                    <input type="text" name="phone no" id="phone no">
                 </div>
                
                <div>
                     <label>Message</label>
-                    <textarea></textarea>
+                    <textarea name="message" id="message"></textarea>
                </div>
                <div>
                    <input type="submit" value="Send">
